@@ -1,0 +1,60 @@
+.calculator {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.row1 input, .row1 img, .row2 input, .row3 input, .row4 input, .row5 input{
+  border: 1px solid black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  background-color: lightgray;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(15, 40, 40);
+}
+
+#react-image {
+  background-image: url("/favicon.ico");
+  border-radius: 0;
+  background-color: black;
+}
+
+.row1 input:hover, .row2 input:hover, .row3 input:hover, .row4 input:hover, .row5 input:hover{
+  background-color: orange;
+}
+
+.output div{
+  border: 1px solid black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 60px;
+  width: 254px;
+  background-color: rgba(72, 167, 218, 0.851);
+  color: black;
+  font-size: 2.5em;
+}
+
+.output span {
+  margin-right: 0.7em;
+}
+
+#clear, #zero {
+  width: 123px;
+}
+
+form .operator {
+  background-color: rgba(203, 233, 5, 0.837);
+}
